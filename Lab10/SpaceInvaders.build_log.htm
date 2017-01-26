@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\VMN\Desktop\Cool_Name\students\am73676_vmn295\Lab10\SpaceInvaders.uvproj
+Project File Date:  05/04/2015
+
+<h2>Output:</h2>
+Rebuild target 'SpaceInvaders'
+assembling startup.s...
+assembling random.s...
+compiling DAC.c...
+compiling ADC.c...
+compiling Timer0.c...
+compiling Timer1.c...
+compiling Sound.c...
+DAC.h(4): warning:  #1295-D: Deprecated declaration DAC_Init - give arg types
+  void DAC_Init();
+DAC.h(5): warning:  #1-D: last line of file ends without a newline
+  void DAC_Out();
+DAC.h(5): warning:  #1295-D: Deprecated declaration DAC_Out - give arg types
+  void DAC_Out();
+Sound.c: 3 warnings, 0 errors
+assembling LCD.s...
+assembling Print.s...
+compiling SpaceInvaders.c...
+ADC.h(3): warning:  #1295-D: Deprecated declaration ADC_Init - give arg types
+  void ADC_Init();
+ADC.h(4): warning:  #1-D: last line of file ends without a newline
+  unsigned long ADC_In();
+ADC.h(4): warning:  #1295-D: Deprecated declaration ADC_In - give arg types
+  unsigned long ADC_In();
+GameEngine.h(32): warning:  #1-D: last line of file ends without a newline
+  void State_GameOver(void);
+SpaceInvaders.c: 4 warnings, 0 errors
+compiling ST7735.c...
+compiling GameEngine.c...
+GameEngine.h(32): warning:  #1-D: last line of file ends without a newline
+  void State_GameOver(void);
+ADC.h(3): warning:  #1295-D: Deprecated declaration ADC_Init - give arg types
+  void ADC_Init();
+ADC.h(4): warning:  #1-D: last line of file ends without a newline
+  unsigned long ADC_In();
+ADC.h(4): warning:  #1295-D: Deprecated declaration ADC_In - give arg types
+  unsigned long ADC_In();
+GameEngine.c(631): warning:  #223-D: function "Delay100ms" declared implicitly
+        Delay100ms(30);
+GameEngine.c: 5 warnings, 0 errors
+compiling SwitchLed.c...
+SwitchLed.c(116): warning:  #1-D: last line of file ends without a newline
+  }
+SwitchLed.c: 1 warning, 0 errors
+compiling TExaS.c...
+linking...
+Program Size: Code=11448 RO-data=68364 RW-data=172 ZI-data=1900  
+".\SpaceInvaders.axf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\VMN\\Desktop\\Cool_Name\\students\\am73676_vmn295\\Lab10\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
+top\\Cool_Name\\students\\am73676_vmn295\\Lab10\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+paceInvaders.axf: Error: L6200E: Symbol SmallEnemy10PointA multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol SmallEnemy10PointB multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol PlayerShip0 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol SmallEnemyBonus0 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Bunker0 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Bunker1 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Bunker2 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Bunker3 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol BigExplosion0 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol BigExplosion1 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol SmallExplosion0 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol SmallExplosion1 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Missile0 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Missile1 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Missile2 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Laser0 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Laser1 multiply defined (by gameengine.o and spaceinvaders.o).
+.\SpaceInvaders.axf: Error: L6200E: Symbol Intro multiply defined (by gameengine.o and spaceinvaders.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 22 error messages.
+".\SpaceInvaders.axf" - 22 Error(s), 13 Warning(s).
+Target not created
+siles[j].GObj2.y < (Lasers[i].GObj.y - LASERH)) || ((SpecMissiles[j].GObj2.y - MISSILEH) > Lasers[i].GObj.y))){
+GameEngine.c(446): warning:  #175-D: subscript out of range
+                        if(RegMissiles[i].GObj.y <= LASERH ){
+GameEngine.c(462): warning:  #175-D: subscript out of range
+                        if((SpecMissiles[i].GObj1.y > LASERH) && (SpecMissiles[i].GObj1.x < MISSILEW)){
+GameEngine.c(474): warning:  #175-D: subscript out of range
+                        if((SpecMissiles[i].GObj2.y > LASERH) && (SpecMissiles[i].GObj2.x > MISSILEW)){
+GameEngine.c: 21 warnings, 0 errors
+compiling SwitchLed.c...
+SwitchLed.c(116): warning:  #1-D: last line of file ends without a newline
+  }
+SwitchLed.c: 1 warning, 0 errors
+compiling TExaS.c...
+linking...
+Program Size: Code=11528 RO-data=26856 RW-data=168 ZI-data=1896  
+".\SpaceInvaders.axf" - 0 Error(s), 29 Warning(s).
+Load "C:\\Users\\VMN\\Desktop\\Cool_Name\\students\\am73676_vmn295\\Lab10\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
